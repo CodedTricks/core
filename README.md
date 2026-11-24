@@ -804,6 +804,7 @@ The documentation now includes task-oriented, executable workflows and a contrib
 | Guide | Use it for |
 | --- | --- |
 | [`docs/workflows.md`](docs/workflows.md) | Complete transaction lifecycle, wallet signing, multisignature signing, Soroban calls, trustline approval, cost planning, refunds, and recovery patterns |
+| [`docs/security-model.md`](docs/security-model.md) | Trust boundaries, client/server secret handling, automated redaction, and mainnet safeguards |
 | [`docs/architecture.md`](docs/architecture.md) | Module boundaries, data flow, result/error conventions, extension guidance, and migration from direct Stellar SDK usage |
 | [`docs/adr/`](docs/adr/README.md) | Architecture Decision Records — the problem, options, decision, and consequences behind major design choices (no-throw results, stateless client, wallet adapters, error classification, streaming transport, module structure) |
 
