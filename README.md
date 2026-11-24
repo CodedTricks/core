@@ -68,6 +68,8 @@ npm install sorokit-core @creit.tech/stellar-wallets-kit
 
 `@creit.tech/stellar-wallets-kit` is a required peer dependency. It provides the underlying wallet adapter infrastructure that `sorokit-core` builds on.
 
+For supported upstream Stellar SDK versions, XDR compatibility guarantees, and migration checks, see the [Stellar SDK Upgrade & Migration Notes](docs/stellar-sdk-migration-notes.md).
+
 ---
 
 ## Quick Start
