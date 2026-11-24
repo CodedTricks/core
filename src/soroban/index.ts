@@ -597,3 +597,6 @@ export type {
   UpgradeEvent,
   ContractUpgradeDetectionOptions,
 } from "./upgradeDetection";
+
+export { interpretContractFailure } from "./contractFailureInterpreter";
+

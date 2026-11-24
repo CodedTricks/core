@@ -2187,3 +2187,5 @@ export type {
   WebSocketTransactionFeedOptions,
   WebSocketTransactionFeedHandle,
 } from "./transaction/transactionDashboard";
+
+export { interpretContractFailure } from "./soroban/contractFailureInterpreter";
