@@ -20,6 +20,7 @@ if (result.status === "ok") {
 Use the search box or navigation to find functions, interfaces, and examples.
 
 - [Getting started and SDK usage](https://github.com/TochukwuJustice/core#readme)
+- [Wallet Adapter Selection Guide](./wallet-adapter-selection-guide.md)
 - [Task-oriented workflows](https://github.com/TochukwuJustice/core/blob/main/docs/workflows.md)
 - [Architecture guide](https://github.com/TochukwuJustice/core/blob/main/docs/architecture.md)
 

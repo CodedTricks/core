@@ -393,7 +393,9 @@ This pattern means you handle errors where they happen, without wrapping everyth
 
 ## Wallet Adapters
 
-Four adapters ship with `sorokit-core`. All require a [Stellar Wallets Kit](https://github.com/creit-tech/stellar-wallets-kit) instance initialised separately:
+`sorokit-core` provides first-class adapters for all major Stellar wallet providers and hardware signers. All adapters implement the uniform `WalletAdapter` interface.
+
+For an in-depth comparison matrix, required peer dependencies, connection flows, and hardware boundaries, see the [Wallet Adapter Selection Guide](docs/wallet-adapter-selection-guide.md).
 
 ```ts
 import {
@@ -401,7 +403,8 @@ import {
   XBullAdapter,
   LobstrAdapter,
   HanaAdapter,
-  SWKSignAdapter,
+  AlbedoAdapter,
+  WalletConnectAdapter,
 } from "sorokit-core";
 
 const adapter = new FreighterAdapter(swkInstance);
